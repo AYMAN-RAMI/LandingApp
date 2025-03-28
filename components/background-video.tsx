@@ -10,17 +10,20 @@ export default function BackgroundVideo() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 bottom-0 z-[-1] overflow-hidden bg-black">
+    <div className="fixed top-0 left-0 w-full h-full z-[-1] overflow-hidden bg-black">
       <video
         ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 min-w-full min-h-full w-auto h-auto object-cover"
+        className="absolute inset-0 w-full h-full object-cover"
         style={{
-          width: "100%",
-          height: "100%"
+          minWidth: "100%",
+          minHeight: "100%",
+          width: "auto",
+          height: "auto",
+          objectFit: "cover",
         }}
       >
         <source src="/assets/video.mp4" type="video/mp4" />
