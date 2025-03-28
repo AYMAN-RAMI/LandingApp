@@ -78,7 +78,7 @@ export default function LandingPage() {
             <div className="backdrop-blur-lg rounded-3xl p-3 flex items-end gap-4 shadow-lg">
               <SocialIcon
                 href="https://t.me/+oZ54ZhFjXjExMzlk"
-                imgSrc="/assets/telegram-logo2.png"
+                imgSrc="/assets/telegram-logo3.png"
                 alt="Telegram"
                 tooltip="Telegram"
                 activeTooltip={activeTooltip}
@@ -87,7 +87,7 @@ export default function LandingPage() {
               />
               <SocialIcon
                 href="https://x.com/knowledgesolana"
-                imgSrc="/assets/x-logo2.png"
+                imgSrc="/assets/x-logo3.png"
                 alt="Twitter"
                 tooltip="X"
                 activeTooltip={activeTooltip}
@@ -96,7 +96,7 @@ export default function LandingPage() {
               />
               <SocialIcon
                 href="https://dexscreener.com/solana/5am2meizfq5ydcdcw4m2zdhlrv2f1gf5tzjzdljggfxt"
-                imgSrc="/assets/dexscreener-logo2.png"
+                imgSrc="/assets/dexscreener-logo3.png"
                 alt="Dexscreener"
                 tooltip="Dexscreener"
                 activeTooltip={activeTooltip}
@@ -116,7 +116,7 @@ export default function LandingPage() {
                 >
                   <div className="w-14 h-14 backdrop-blur-sm rounded-2xl flex items-center justify-center transition-transform group-hover:scale-110">
                     <Image
-                      src="/assets/robin-logo.png"
+                      src="/assets/robin-logo3.png"
                       alt="Robin"
                       width={40}
                       height={40}
