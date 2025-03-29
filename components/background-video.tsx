@@ -10,7 +10,7 @@ export default function BackgroundVideo() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full z-[-1] overflow-hidden bg-black">
+    <div className="hidden md:block fixed top-0 left-0 w-full h-full z-[-1] overflow-hidden bg-black">
       <video
         ref={videoRef}
         autoPlay
@@ -29,8 +29,6 @@ export default function BackgroundVideo() {
         <source src="/assets/video.mp4" type="video/mp4" />
         Votre navigateur ne prend pas en charge la lecture de vidéos.
       </video>
-
-      
     </div>
   );
 }
