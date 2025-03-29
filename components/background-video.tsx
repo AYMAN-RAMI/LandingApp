@@ -29,6 +29,8 @@ export default function BackgroundVideo() {
         <source src="/assets/video.mp4" type="video/mp4" />
         Votre navigateur ne prend pas en charge la lecture de vidéos.
       </video>
+
+      
     </div>
   );
 }

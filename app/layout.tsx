@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Created with v0',
   generator: 'v0.dev',
   icons: {
-    icon: "/assets/robin-logo.png", // Chemin vers ton image
+    icon: "/assets/robin-logo3.png", // Chemin vers ton image
   },
 }
 
