@@ -10,7 +10,7 @@ export default function BackgroundVideo() {
   }, []);
 
   return (
-    <div className="hidden md:block fixed top-0 left-0 w-full h-full z-[-1] overflow-hidden bg-black">
+    <div className="fixed top-0 left-0 w-full h-full z-[-1] overflow-hidden bg-black">
       <video
         ref={videoRef}
         autoPlay

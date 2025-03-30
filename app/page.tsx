@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import BackgroundVideo from "@/components/background-video"
 import Image from "next/image"
 import { X } from "lucide-react"
-import ScrollingBanner from "@/components/ScrollingBanner"
+
 
 // Type des props pour SocialIcon
 type SocialIconProps = {
@@ -70,16 +70,8 @@ export default function LandingPage() {
     <main className="relative h-screen w-full overflow-hidden">
       <BackgroundVideo />
 
-      {/* Scrolling Banner: Configuration responsive */}
-      <div className="absolute top-[42px] left-[533px] w-[calc(100%-1060px)] py-[0.5px] z-40 md:hidden">
-        {/* Afficher sur les petits écrans */}
-        <ScrollingBanner />
-      </div>
-
-      <div className="absolute top-[42px] left-[533px] w-[calc(100%-1060px)] py-[0.5px] z-40 hidden md:block">
-        {/* Afficher sur les grands écrans */}
-        <ScrollingBanner />
-      </div>
+      
+      
 
       <div className="absolute inset-0 flex flex-col items-center justify-between">
         <div className="w-full"></div>
